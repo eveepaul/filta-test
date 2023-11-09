@@ -8,3 +8,7 @@
       font-family: "Open Sans", system-ui, sans-serif;
     }
   }
+
+.img-zoom-effect {
+  @apply hover:scale-125 duration-500 ease-in-out
+}
