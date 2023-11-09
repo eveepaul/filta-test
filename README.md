@@ -34,6 +34,9 @@ We are looking for your ability to bring life to static designs. During that pro
 * **Quality:** Production-grade build and precision.
 
 
-## Solution
+# Solution
+## Live demo: https://eveepaul.github.io/filta-test/
+
 - favicon: https://freesvg.org/broccoli-1589369784
-- link: https://eveepaul.github.io/filta-test/
+- spinner: https://github.com/n3r4zzurr0/svg-spinners/blob/main/svg-css/90-ring.svg
+

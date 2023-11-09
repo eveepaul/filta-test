@@ -16,6 +16,7 @@ const component1Images = document.querySelectorAll("section:first-child img");
 const component2Images = document.querySelectorAll("section:last-child img");
 const modaButtonClose = document.querySelector(".modal button");
 const modalBody = document.querySelector(".modal-body");
+const spinner = document.querySelector(".loading-spinner")
 
 
 anchorTags.forEach((element) => {
@@ -28,17 +29,25 @@ anchorTags.forEach((element) => {
 component1Images.forEach((img, key) => {
     img.addEventListener("click", () => {
         modalNode.classList.remove("hidden");
+        spinner.classList.remove("hidden");
         const imageElement = document.createElement("img");
         imageElement.src = component1Imgs[key];
         modalBody.replaceChildren(imageElement);
+        imageElement.addEventListener('load', () => {
+            spinner.classList.add("hidden");
+        })
     })
 })
 component2Images.forEach((img, key) => {
     img.addEventListener("click", () => {
         modalNode.classList.remove("hidden");
+        spinner.classList.remove("hidden");
         const imageElement = document.createElement("img");
         imageElement.src = component2Imgs[key];
         modalBody.replaceChildren(imageElement);
+        imageElement.addEventListener('load', () => {
+            spinner.classList.add("hidden");
+        })
     })
 })
 
