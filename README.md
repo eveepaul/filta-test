@@ -33,3 +33,7 @@ We are looking for your ability to bring life to static designs. During that pro
 * **Git:** Bonus points for submission on a github account showing multiple commits.
 * **Quality:** Production-grade build and precision.
 
+
+## Solution
+- favicon: https://freesvg.org/broccoli-1589369784
+- link: https://eveepaul.github.io/filta-test/
